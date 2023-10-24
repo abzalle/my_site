@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F0F8FF;
+	font-family: 'Roboto';
+}
+
+.main{
+	background-color: #fff;
+	display: flex;
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+	flex-wrap: wrap;
+}
+
+.item {
+	max-height: 265px;
+	max-width: 490px;
+	width: calc(50% - 10px);
+	height: calc(95vw / 2 / 16 * 9);
+	background-color: dodgerblue;
+	margin: 5px;
+	background-position: center;
+
+	background-size: cover;
+}
+
+.heading{
+	font-size: 48px;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+}
+
+/*a{
+	display: block;
+	width: 100%;
+}*/
